@@ -7,12 +7,13 @@ body{
 }
 
 .content{
-    background-color: #ebe2dc;
+    background-color: #F2F2F2;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
+
 }
 
 .sign{
@@ -27,24 +28,22 @@ body{
     margin-top: 20px;
 
     border-radius: 10px;
+
+    
     
 }
 
 .main{
-    background-color: #DFD4E2 ;
+    /* background-color: #DFD4E2 ; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    padding: 10px;
     grid-gap: 10px;
-    width: 1800px;
-    height: 800px;
-    flex-grow: 3;
+
 }
 
 .box{
-    border: solid 2px white;
-    background-color: #c3b4da;
+    background-color: #FFFEFE;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -53,10 +52,14 @@ body{
 
     font-family: 'FONTSPRING DEMO - The Seasons';
     font-size: 2em;
+
+    box-shadow: 3px 5px 6px 0px #b3b1b1;
 }
 
 .box:hover{
-    background-color: #9894F1;
+    box-shadow: 3px 5px 6px 0px #bfa6f3;
+    transform: scale(1.02);
+    transition: all 0.5s;
 }
 
 .box:first-child{
