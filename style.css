@@ -4,17 +4,32 @@
 
 body{
     background-color: #000000;
-
 }
 
 .content{
-    background-color: #BE8F6D;
+    background-color: #ebe2dc;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 959px;
-    width: 1669;
+    height: 100vh;
+    width: 100vw;
 }
+
+.sign{
+    background-image: url(Imagenes/vertical.jpg);
+    background-size:50%;
+
+    flex-grow: 0.5;
+    min-width: 200px;
+    min-height: 95%;
+
+    margin: 20px;
+    margin-top: 20px;
+
+    border-radius: 10px;
+    
+}
+
 .main{
     background-color: #DFD4E2 ;
     display: grid;
@@ -24,11 +39,12 @@ body{
     grid-gap: 10px;
     width: 1800px;
     height: 800px;
+    flex-grow: 3;
 }
 
 .box{
     border: solid 2px white;
-    background-color: #865EBF;
+    background-color: #c3b4da;
     border-radius: 15px;
     display: flex;
     justify-content: center;
